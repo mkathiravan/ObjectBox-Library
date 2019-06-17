@@ -1,0 +1,63 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:1806061113184479466",
+      "lastPropertyId": "2:5377567672960806337",
+      "name": "Zoo",
+      "properties": [
+        {
+          "id": "1:7531193358303634241",
+          "name": "id"
+        },
+        {
+          "id": "2:5377567672960806337",
+          "name": "name"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2995243209261972178",
+      "lastPropertyId": "5:8447544132326149156",
+      "name": "Animal",
+      "properties": [
+        {
+          "id": "1:6450351026280980404",
+          "name": "id"
+        },
+        {
+          "id": "2:6878102549173779943",
+          "name": "name"
+        },
+        {
+          "id": "3:2701323295542768637",
+          "name": "image"
+        },
+        {
+          "id": "4:1771892300660418106",
+          "name": "group"
+        },
+        {
+          "id": "5:8447544132326149156",
+          "indexId": "1:2352856929233321428",
+          "name": "zooId"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:2995243209261972178",
+  "lastIndexId": "1:2352856929233321428",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

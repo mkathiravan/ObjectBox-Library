@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GoogleArchitectureWithObjectBox</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+
+    <string name="zoo_name_hint">Zoo name</string>
+</resources>
